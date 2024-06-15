@@ -1,7 +1,7 @@
 
 #  Office Lunch Menu Management System Documentation
 
-The Office Lunch Menu Management System is a web application designed to streamline the management of daily lunch options in an office environment. This system allows admins to efficiently add and manage daily lunch menus, while employees can view these menus and select their lunch preferences. The goal is to simplify the lunch ordering process and ensure accurate recording of employees' choices.
+The Office Lunch Menu Management System is a web application designed to streamline the management of daily lunch options in an office environment. This system allows admins to efficiently add and manage daily lunch menus, while employees can view these menus and select their lunch preferences. The goal is to simplify the lunch ordering process and to ensure accurate recording of employee's choices.
 ## Tech Stack
 
 **Frontend:** React, React Router , TailwindCSS, React Hook Form, Shadcn UI, Day Picker.
@@ -34,37 +34,18 @@ Install my-project with npm
 
 ### Backend Setup
 
-1. Clone the repository:
-
-```bash
-git clone https://github.com/sunnysakib/office-lunch-menu-management.git
-cd office-lunch-menu-management/backend
-```
-
-2. Install dependencies:
+Install dependencies:
 
 ```bash
 npm install
 ```
+Set up the PostgreSQL database:
 
-3. Set up the PostgreSQL database:
+Upload the database into the pgAdmin 4
 
-- Upload the database into the pgAdmin 4
 
-4. Configure the database connection:
 
-```
-host: "localhost",
-user: your_db_username,
-port: 5432,
-password: your_db_password,
-database: lunch_menu_db,
-
-<!-- configure it in src/utils/dbConnect.js -->
-
-```
-
-5. Start the backend server:
+Start the backend server:
 
 ```
  npm run dev
@@ -120,11 +101,6 @@ npm run dev
 ## Conclusion 
 
 This documentation provides an overview of the Office Lunch Menu Management System, including its features, setup instructions, API endpoints, and user interface. For more detailed information, please refer to the project's codebase and inline comments.
-
-
-## Demo
-- Video Drive Link
-[Video Demostration](https://drive.google.com/drive/folders/1WZrgBeczMdpKE70oTwUTokdTGCza-fBp?usp=sharing)
 
 
 ## Screenshots
